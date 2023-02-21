@@ -3,3 +3,6 @@ git status
 git add . 
 git commit -m "first commit adding one.txt two.txt"
 git remote add origin https://github.com/donenam/devops_test.git >> push changes to remote repo
+git push origin master
+
+Other users who clone a repo has to run >> git pull origin master, when changes are made to files on git
